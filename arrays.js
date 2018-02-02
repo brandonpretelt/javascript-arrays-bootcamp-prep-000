@@ -27,10 +27,10 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
- var arr = array; 
- arr.shift();
- return arr;
- // return array.shift();
+ //var arr = array; 
+ //arr.shift();
+ //return arr;
+ return array.shift();
 }
 
 function removeElementFromBeginningOfArray(array) {
