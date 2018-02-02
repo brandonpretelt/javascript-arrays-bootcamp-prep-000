@@ -26,8 +26,6 @@ function accessElementInArray(array, index) {
   return array[index]; 
 }
 
-function destructivelyRemveElementFromBeginningOfArray(array) {
-   var a = array; 
-   return a.shift();
-  
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+
 }
