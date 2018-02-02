@@ -27,10 +27,10 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
- //var arr = array; 
- //arr.shift();
- //return arr;
- return array.shift();
+ var arr = array; // this one is not so much destructive? 
+ arr.shift(); // Since I'm creating a new variable, it'll retain the original value? 
+ return arr; //
+ // return array.shift(); This should work as this is destructivive
 }
 
 function removeElementFromBeginningOfArray(array) {
